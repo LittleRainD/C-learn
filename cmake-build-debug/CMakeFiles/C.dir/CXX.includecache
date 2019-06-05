@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/my/C/main.cpp
+stdio.h
+/cygdrive/d/my/C/stdio.h
+test.h
+/cygdrive/d/my/C/test.h
+
+/cygdrive/d/my/C/test.h
+
+/cygdrive/d/my/C/test1.cpp
+test1.h
+/cygdrive/d/my/C/test1.h
+
+/cygdrive/d/my/C/test1.h
+
